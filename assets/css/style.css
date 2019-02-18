@@ -1,0 +1,163 @@
+body {
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.navbar-nav {
+    padding-right: 14px !important;
+}
+
+.logo {
+    width: 75%;
+    height: auto;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: #080141;
+    box-sizing: border-box;
+    padding: 30px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+#header::after {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    top: 45%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top right;
+    transform: skewY(-5deg);
+}
+
+.intro-text {
+    padding-top: 7%;
+}
+
+.intro-text>h2, p {
+    margin-bottom: 25px !important;
+}
+
+.nav-item {
+    margin-right: 15px !important;
+}
+
+.custom-btn {
+    padding: 10px 35px !important;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #ffc728;
+}
+
+.sign-up-btns {
+    float: right;
+}
+
+.header-img {
+    height: 84%;
+    margin-left: 10%;
+}
+
+/* Stats */
+
+#stats {
+    position: relative;
+    width: 100%;
+    height: 160vh;
+    padding-top: 12%;
+    background: url(../imgs/illustration-2.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: left;
+    background-size: 70%;
+    background-position-y: 230px;
+    background-position-x: -30%;
+    margin-bottom: 10vh;
+}
+
+.main-text {
+    margin-bottom: 5%;
+}
+
+.illustration-2 {
+    height: auto;
+    max-width: 100%;
+}
+
+.card {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: auto;
+    margin-bottom: 3rem;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/* How to use */
+
+#how-to-use {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 12%;
+}
+
+#how-to-use::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    /* transform-origin: top right; */
+    transform: skewY(-5deg);
+    background-color: #cccc
+}
+
+#freelancers {
+    padding-bottom: 10vh;
+}
+
+.number {
+    border: 2px solid #080141;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.how-img {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.how-img>img {
+    max-width: 100%;
+}
+
+.how-to-text {
+    text-transform: uppercase;
+    font-size: 1rem
+}
+
+.card-size {
+    height: 370px;
+}
