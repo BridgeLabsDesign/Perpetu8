@@ -9,7 +9,9 @@
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
 
 </head>
 
@@ -36,10 +38,10 @@
                         <a class="nav-link" href="#stats">Stats</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">How to use</a>
+                        <a class="nav-link" href="#how-to-use">How to use</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-btn" href="#">Contact us </a>
+                        <a class="nav-link custom-btn" href="#contactus">Contact us </a>
                     </li>
                 </ul>
 
@@ -54,18 +56,16 @@
                 </div>
                 <div class="col-sm-6 intro-text">
                     <h2>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe molestias ducimus quo
-                        voluptas cumque ipsam aliquam modi? Doloribus
+                        IT'S TIME THAT MICRO, SMALL AND MEDUIM SIZED BUSINESS GREW, SCALES AND CREATED JOBS.
                     </h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolore pariatur reiciendis, eius
-                        nobis odit, commodi ad facilis ratione cum totam consectetur quas sapiente quia. Sequi esse qui
-                        debitis deserunt.
+                        Perpetu8 is a boutique SMME strategy, advisory and implementation consulting firm that provides
+                        assistance to high-potential formal SMMEs across
+                        sectors.
                     </p>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ratione nulla accusamus unde
-                        provident dignissimos. Dolore sed voluptatem ullam praesentium vel in enim, maxime, quia eaque
-                        molestiae doloribus pariatur aperiam.
+                        Perpetu8 makes skilled people / freelancers available and affordable to SMMEs through
+                        implementation consulting.
                     </p>
 
                     <div class="sign-up-btns">
@@ -91,28 +91,37 @@
             </div>
             <div class="col-sm-6 p-5">
                 <div class="card">
-                    <div class="card-body">
-                        This is some text within a card body.
+                    <div class="card-body font-weight-bold">
+                        <h6 class="font-weight-light "> Increased Adoption of the freelance economy</h6>
+                        40% OF MILLENIALS FREELANCE AND THIS IS GROWING
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-body">
-                        This is some text within a card body.
+                    <div class="card-body font-weight-bold">
+                        <h6 class="font-weight-light"> Growth of number of Companies more comfortable with outsourcing
+                            to freelancers</h6>
+                        EXPONENTIAL ORGANISATIONS ARE MOVING TO ON-DEMAND SKILLS IN LINE WITH THE SHARING
+                        ECONOMY. THESE ORGANISATIONS ALIGN WITH HOW THE WORLD IS CHANGING: EXPONENTIALLY.
+                        SOME MISSION-CRITICAL TASKS AND ASPECTS ARE ALSO OUTSOURCED TO ON-DEMAND SKILLS.
+                        THIS ALLOWS FOR LOW COSTS, EFFICIENCY AND NIMBLE ORGANISATIONS
+
+
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-body">
-                        This is some text within a card body.
+                    <div class="card-body font-weight-bold">
+                        TOP 5 SECTORS SHOWING BIGGEST SUPPORT FOR FREELANCERS
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-body">
-                        This is some text within a card body.
+                    <div class="card-body font-weight-bold">
+                        % OF SALARY THAT CAN BE MADE THROUGH SUPPLEMENTAL INCOME BY TOP PROFESSIONALS
+                        ACROSS AGE GROUPS/SECTOR
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-body">
-                        This is some text within a card body.
+                    <div class="card-body font-weight-bold">
+                        SMMES FACE AN ISSUE IN ACCESSING AND AFFORDING HUMAN CAPITAL FOR THEIR BUSINESSES
                     </div>
                 </div>
             </div>
@@ -128,7 +137,28 @@
             <p class="text-center">How are we enabling seamless collaboration between all stakeholders and also solving
                 for integrity,
                 efficiency and transparency.</p>
+            <p class="text-center">Select</p>
+            <!-- collapse example -->
+
+<!--             <div class="btn-group btn-toggle">
+                <button class=" btn btn-primary active" data-toggle="collapse" data-target="#collapsible"
+                    aria-pressed="true">freelancers</button>
+                <button class="btn btn-default" data-toggle="collapse" data-target="#collapsible">Close</button>
+            </div> -->
+
+            <div class="w3-bar w3-black">
+                    <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'freelancer')">Freelancers</button>
+                    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'business')">Business</button>
+ 
+                  </div>
+
+
+
+
+
         </div>
+        <!-- FREELANCER-->
+        <div id="freelancer" class="w3-container w3-border howtouse">
         <div class="container">
             <div id="freelancers" class="row text-center">
                 <div class="col-sm-3">
@@ -139,8 +169,8 @@
                                 <img src="./assets/imgs/illustration-3.png" alt="" srcset="">
                             </div>
                             <div class="text-center">
-                                    <h3 class="how-to-text">Sign up</h3>
-                                </div>
+                                <h3 class="how-to-text">Sign up</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -152,8 +182,8 @@
                                 <img src="./assets/imgs/illustration-6.png" alt="" srcset="">
                             </div>
                             <div class="text-center">
-                                    <h3 class="how-to-text">Get staffed on a product</h3>
-                                </div>
+                                <h3 class="how-to-text">Get staffed on a product</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -178,14 +208,228 @@
                                 <img src="./assets/imgs/illustration-5.png" alt="" srcset="">
                             </div>
                             <div class="text-center">
-                                    <h3 class="how-to-text">Get paid</h3>
-                                </div>
+                                <h3 class="how-to-text">Get paid</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
 
+
+        <!-- BUSINESS PEOPLE-->
+        <div id="business" class="w3-container w3-border howtouse" style="display:none">
+                <div class="container">
+                        <div id="freelancers" class="row text-center">
+                            <div class="col-sm-3">
+                                <div class="card card-size">
+                                    <div class="card-body">
+                                        <div class="number">1</div>
+                                        <div class="how-img">
+                                            <img src="./assets/imgs/illustration-3.png" alt="" srcset="">
+                                        </div>
+                                        <div class="text-center">
+                                            <h3 class="how-to-text">Get in touch with your problem to solve</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card card-size">
+                                    <div class="card-body">
+                                        <div class="number">2</div>
+                                        <div class="how-img">
+                                            <img src="./assets/imgs/illustration-5.png" alt="" srcset="">
+                                        </div>
+                                        <div class="text-center">
+                                            <h3 class="how-to-text">Project scoping completed with our Subject Matter Experts</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card card-size">
+                                    <div class="card-body">
+                                        <div class="number">3</div>
+                                        <div class="how-img">
+                                            <img src="./assets/imgs/illustration-6.png" alt="" srcset="">
+                                        </div>
+                                        <div class="text-center">
+                                            <h3 class="how-to-text">Select the additional specialists needed on your project team</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <div class="card-body card-size">
+                                        <div class="number">4</div>
+                                        <div class="how-img">
+                                            <img src="./assets/imgs/illustration-4.png" alt="" srcset="">
+                                        </div>
+                                        <div class="text-center">
+                                            <h3 class="how-to-text">Collaborate with great on-demand talent</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body card-size">
+                                            <div class="number">5</div>
+                                            <div class="how-img">
+                                                <img src="./assets/imgs/illustration-5.png" alt="" srcset="">
+                                            </div>
+                                            <div class="text-center">
+                                                <h3 class="how-to-text">Grow, Scale and create jobs</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                        </div>
+                    </div>
+         </div>
+
+
+
+    </section>
+
+
+    <!-- Testimonial -->
+    <section id="testimonial">
+        <div class="main-text">
+            <h2 class="text-center">TESTIMONIAL</h2>
+
+
+        </div>
+
+        <div class="container">
+
+
+
+
+            <div class="container-caro">
+
+                <div class="carousel-wrapper">
+                    <ul id="templates">
+
+                        <div class="col-sm">
+                            <div class="card card-size1" style="width: 18rem;">
+                                <div class="card-body">
+
+                                    <span><img class="Card-image" src="./assets/imgs/illustration-4.png"> </span>
+                                    <span class="title-sub">
+                                        <h5 class="card-title">Angela </h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">@angel_m</h6>
+                                    </span>
+
+                                    <p class="card-text">Crucifix kickstarter street art mlkshk
+                                        polaroid. Salvia narwhal dreamcatcher
+                                        typewriter hashtag craft beer farm-to-table etsy intelligentsia
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card card-size1" style="width: 18rem;">
+                                <div class="card-body">
+
+                                    <span><img class="Card-image" src="./assets/imgs/illustration-4.png"> </span>
+                                    <span class="title-sub">
+                                        <h5 class="card-title">Angela</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">@angel_m</h6>
+                                    </span>
+
+                                    <p class="card-text">Crucifix kickstarter street art mlkshk
+                                        polaroid. Salvia narwhal dreamcatcher
+                                        typewriter hashtag craft beer farm-to-table etsy intelligentsia
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card card-size1" style="width: 18rem;">
+                                <div class="card-body">
+
+                                    <span><img class="Card-image" src="./assets/imgs/illustration-4.png"> </span>
+                                    <span class="title-sub">
+                                        <h5 class="card-title">Angela</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">@angel_m</h6>
+                                    </span>
+
+                                    <p class="card-text">Crucifix kickstarter street art mlkshk
+                                        polaroid. Salvia narwhal dreamcatcher
+                                        typewriter hashtag craft beer farm-to-table etsy intelligentsia
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                    </ul>
+                </div>
+                <div class="arrow" id="carousel-left">
+                    <svg width="18px" height="36px" viewBox="0 0 18 36" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path
+                            d="M5.21052632,0.947368421 C5.21052632,0.947368421 3.07894737,-1.18421053 0.947368421,0.947368421 C-1.18421053,3.07894737 0.947368421,5.21052632 0.947368421,5.21052632 L10.0132398,17.1509422 C10.3692729,17.6198639 10.367278,18.3827635 10.0132398,18.8490578 L0.947368421,30.7894737 C0.947368421,30.7894737 -1.18421053,32.9210526 0.947368421,35.0526316 C3.07894737,37.1842105 5.21052632,35.0526316 5.21052632,35.0526316 L17.365768,18.8456427 C17.7160447,18.3786071 17.7088441,17.6117921 17.365768,17.1543573 L5.21052632,0.947368421 Z"
+                            id="icon-single-arrow-22px" fill="#3D4752"
+                            transform="translate(9.000000, 18.000000) scale(-1, 1) translate(-9.000000, -18.000000) ">
+                        </path>
+                    </svg>
+                </div>
+                <div class="arrow showing" id="carousel-right">
+
+                    <svg width="18px" height="36px" viewBox="0 0 18 36" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path
+                            d="M5.21052632,0.947368421 C5.21052632,0.947368421 3.07894737,-1.18421053 0.947368421,0.947368421 C-1.18421053,3.07894737 0.947368421,5.21052632 0.947368421,5.21052632 L10.0132398,17.1509422 C10.3692729,17.6198639 10.367278,18.3827635 10.0132398,18.8490578 L0.947368421,30.7894737 C0.947368421,30.7894737 -1.18421053,32.9210526 0.947368421,35.0526316 C3.07894737,37.1842105 5.21052632,35.0526316 5.21052632,35.0526316 L17.365768,18.8456427 C17.7160447,18.3786071 17.7088441,17.6117921 17.365768,17.1543573 L5.21052632,0.947368421 Z"
+                            id="icon-single-arrow-22px" fill="#3D4752"></path>
+                    </svg>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+    <!-- Contact Us -->
+    <section id="contactus">
+
+        <div class="row">
+            <div class="col">
+                <br><br><br>
+                &copy; Perpetu8 (Pty) 2018. All right Reserved
+            </div>
+            <div class="col">
+                <p class="text-right">Our Address - <br>
+                    6803 Dickens Islands Apt. 567, <br>
+                    Port Malikaview,<br>
+                    TX 14942
+                </p>
+                <p class="text-right"> Our Social media - <br>
+                    Facebook Twitter Instagram Linkedin
+                </p>
+            </div>
+        </div>
 
     </section>
 
@@ -199,6 +443,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/carousel.js"></script>
 
 </body>
 

@@ -1,0 +1,97 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.container-caro {
+  padding: 16px;
+  width: 100%; 
+  overflow: hidden;
+  margin: 100px auto;
+  position: relative;
+}
+#templates {
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all 0.35s ease-in-out;
+  list-style-type: none;
+ 
+}
+.caro-pict {
+  width: 300px;
+  height: 160px;
+  /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35); */
+  margin-right: 16px;
+  flex: 1 0 auto;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 130px 0 0 8px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+ul li:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.carousel-wrapper {
+  overflow: hidden;
+  padding: 16px;
+}
+.arrow {
+  position: absolute;
+  height: 100%;
+  padding: 16px;
+  display: flex;
+  top: 0;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.arrow svg {
+  opacity: 0.5;
+  position: relative;
+  left: 0;
+  right: 0;
+  transition: all 0.2s ease-in-out;
+}
+.arrow.showing {
+  opacity: 1;
+}
+#carousel-left {
+  left: -16px;
+  top: -37px;
+  
+}
+#carousel-left:hover svg {
+  left: -4px;
+}
+#carousel-right {
+  right: -16px;
+  top: -37px;
+  
+  
+}
+#carousel-right:hover svg {
+  left: 4px;
+}
+
+.Card-image
+{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+}
+.title-sub
+{
+  float: right;
+  left: 0px;
+  margin-right: 64px;
+}
+
