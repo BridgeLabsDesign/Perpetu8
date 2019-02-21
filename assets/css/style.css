@@ -4,11 +4,12 @@ html {
 
 body {
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Perpetua' !important;
+    position: relative !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Perpetua' !important;
     font-weight: 400;
     margin: 10px 0;
 }
@@ -17,24 +18,84 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-nav {
     padding-right: 14px !important;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Perpetua' !important;
+    
+}
+.navbar{
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 3;
+    background-color: #f7cc0c;
+    
+}
+.header-content{
+    padding-top: 6%;
+}
+
+.navbar li a
+{
+   color:#023347 !important;
+    text-decoration:none;
+}
+
+.navbar li.active {
+    background-color:#0b025c;
+    text-transform:lowercase;
+    padding: 2px 30px !important;
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Perpetua' !important;
+
+}
+.navbar li.active a{
+    color:white !important;
+    text-transform:lowercase;
+
+}
+.navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    border-bottom: 1px solid #dce4ec;
+  }
+
+
+  
+.navbar.scrolled li.active {
+    background-color:#ffc728 !important;
+    text-transform:lowercase;
+    padding: 2px 30px !important;
+    color: #fff  !important;
+    border-radius: 50px;
+    font-family: 'Perpetua' !important;
+
 }
 
 .logo {
     width: 75%;
     height: auto;
+    
+}
+
+.custom-btn {
+    padding: 10px 35px !important;
+    color: #fff !important;
+    border-radius: 50px;
+    background-color: skyblue;
+    font-family: 'Perpetua' !important;
 }
 
 #header {
     position: relative;
     width: 100%;
     height: 80vh;
-    background: #080141;
+    background: #f7cc0c;
     box-sizing: border-box;
     padding: 30px;
-    color: white;
+    color: #023347;
     margin-bottom: 100px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Perpetua' !important;
 }
 
 #header::after {
@@ -64,13 +125,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 15px !important;
 }
 
-.custom-btn {
-    padding: 10px 35px !important;
-    color: #fff;
-    border-radius: 50px;
-    background-color: #ffc728;
-    font-family: 'Lato', sans-serif !important;
-}
+
 
 .sign-up-btns {
     float: right;
@@ -96,12 +151,12 @@ h1, h2, h3, h4, h5, h6 {
     background-position-y: 230px;
     background-position-x: -30%;
     color : rgb(3, 3, 95);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Perpetua' !important;
 }
 
 .main-text {
     margin-bottom: 5%;
-    font-family: 'Lato', sans-serif !important;
+    font-family:'Perpetua' !important;
 }
 
 .illustration-2 {
@@ -119,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     color : rgb(3, 3, 95);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Perpetua' !important;
 }
 
 /* How to use */
@@ -130,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     padding-top: 5%;
     color : rgb(3, 3, 95);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Perpetua' !important;
 }
 
 #how-to-use::after {
@@ -175,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
 .how-to-text {
     text-transform: uppercase;
     font-size: 1rem;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Perpetua' !important;
 }
 
 .card-size {
@@ -192,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     padding-top: 2%;
     margin-bottom: 35vh;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Perpetua' !important;
 }
 
 /* Contact us */
@@ -201,12 +256,12 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     width: 100%;
     height: auto;
-   background: #ffc728; 
+   background: #023347; 
     box-sizing: border-box;
     padding: 30px;
-    color:rgb(32, 32, 32);
+    color:white;
 
-    font-family: 'Lato', sans-serif;
+    font-family: 'Perpetua' !important;
     /* padding-top: 12%;  */
 }
 
@@ -215,13 +270,13 @@ h1, h2, h3, h4, h5, h6 {
     content: '';
     pointer-events: none;
     top: -150px;
-    left: -27.5%;
+    left: -1%;
     z-index: -1;
-    width: 128.5%;
+    width: 220%;
     height: 100%;
     background:inherit;
     z-index: -1;
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
     
   
 }
@@ -232,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 300px;
     margin: auto;
     align-content: center;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Perpetua' !important;
     
 }
 
@@ -244,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff!important;
     background-color:#ffc728 !important;
     border-radius: 40px !important;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Perpetua' !important;
 }
 
 .row {
@@ -254,5 +309,7 @@ h1, h2, h3, h4, h5, h6 {
      flex-wrap: inherit !important; 
     margin-right: 15px;
     margin-left: 15px;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Perpetua' !important;
 }
+
+

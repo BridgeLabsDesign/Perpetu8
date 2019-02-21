@@ -88,7 +88,7 @@ $('#carousel-left').click(function() {
 $('#carousel-right').click(function() {
 	slideCarousel("right");
 });
-Collapse
+
 
 
 

@@ -9,16 +9,20 @@
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/carousel.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/1156f4d5d4.js"></script>
+    
 
 </head>
 
 <body>
     <header id="header" class="">
-        <nav class="navbar navbar-expand-lg navbar-dark  static-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
             <a class="navbar-brand" href="#">
                 <img class="logo" src="./assets/imgs/brand-logo.png" alt="">
@@ -29,20 +33,41 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto" id="nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#stats">Stats</a>
+                        <a class="nav-link" href="#stats">Our Why</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#how-to-use">How to use</a>
+                        <a class="nav-link" href="#how-to-use">Our How</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-btn" href="#contactus">Contact us </a>
+                        <a class="nav-link" href="#signup">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactus">Contact us </a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="https://www.linkedin.com/company/perpetu8/">
+                                <span style="color:#4875B4; font-size:30px;margin-right: 2%;"> <i
+                                        class="fab fa-linkedin-square"></i></span>
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="https://www.instagram.com/perpetu8_africa">
+                                <span style="color:#4E433C; font-size:30px;margin-right: 2%;"> <i
+                                        class="fab fa-instagram"></i></span>
+                            </a>
+                    </li>
+                    <li class="nav-item">        
+                            <a href="https://twitter.com/Perpetu8_Africa">
+                                <span style="color:#33CCFF; font-size:30px;margin-right: 2%;"> <i
+                                        class="fab fa-twitter-square"></i></span>
+                            </a>
                     </li>
                 </ul>
 
@@ -57,21 +82,25 @@
                 </div>
                 <div class="col-sm-6 intro-text">
                     <h2>
-                        IT'S TIME THAT MICRO, SMALL AND MEDUIM SIZED BUSINESS GREW, SCALES AND CREATED JOBS.
+                        Perpetu8 is the African leader in building SMEs into exponential organisations aligned to the
+                        global rate of change and opportunities presented by the Fourth Industrial Revolution.
+
                     </h2>
                     <p>
-                        Perpetu8 is a boutique SMME strategy, advisory and implementation consulting firm that provides
-                        assistance to high-potential formal SMMEs across
-                        sectors.
+                        Perpetu8 is a boutique SME implementation consulting firm that is building relevant, sustainable
+                        and scalable SMEs through leveraging the gig economy.
                     </p>
                     <p>
-                        Perpetu8 makes skilled people / freelancers available and affordable to SMMEs through
-                        implementation consulting.
+                        Perpetu8 makes skilled specialists/freelancers available and affordable to SMEs through on
+                        demand implementation consulting to grow the business and create jobs. We do this through
+                        partnering with funders in the SME ecosystem.
                     </p>
 
                     <div class="sign-up-btns">
-                        <a class="custom-btn mr-4" href="#">Sign-up with Google</a>
-                        <a class="custom-btn" href="#">Sign-up with Linkedin</a>
+
+                        <a class="custom-btn mr-4" href="#">Sign Up As a Freelancer / SME / SME Funder</a>
+                        <!--                         <a class="custom-btn mr-4" href="#">Sign-up with Google</a>
+                        <a class="custom-btn" href="#">Sign-up with Linkedin</a> -->
                     </div>
                 </div>
                 <div class="col-sm-12">
@@ -93,36 +122,49 @@
             <div class="col-sm-6 p-5">
                 <div class="card">
                     <div class="card-body font-weight-bold">
-                        <h6 class="font-weight-light "> Increased Adoption of the freelance economy</h6>
-                        40% OF MILLENIALS FREELANCE AND THIS IS GROWING
+                        <h6 class="font-weight-light "> Africa holds 10.1% of the world’s freelancers. Higher than North
+                            America (4.1%) and the Middle East (1%)</h6>
+                        THE PAYONEER FREELANCER INCOME SURVEY 2018
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body font-weight-bold">
-                        <h6 class="font-weight-light"> Growth of number of Companies more comfortable with outsourcing
-                            to freelancers</h6>
-                        EXPONENTIAL ORGANISATIONS ARE MOVING TO ON-DEMAND SKILLS IN LINE WITH THE SHARING
-                        ECONOMY. THESE ORGANISATIONS ALIGN WITH HOW THE WORLD IS CHANGING: EXPONENTIALLY.
-                        SOME MISSION-CRITICAL TASKS AND ASPECTS ARE ALSO OUTSOURCED TO ON-DEMAND SKILLS.
-                        THIS ALLOWS FOR LOW COSTS, EFFICIENCY AND NIMBLE ORGANISATIONS
+                        <h6 class="font-weight-light"> Freelance market brought in $5 billion into Africa by 2016.</h6>
+                        ROCKEFELLER FOUNDATION
 
 
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body font-weight-bold">
-                        TOP 5 SECTORS SHOWING BIGGEST SUPPORT FOR FREELANCERS
+                        <h6 class="font-weight-light"> 47% of working millennials freelance in some capacity. </h6>
+                        FREELANCING IN AMERICA:2017
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body font-weight-bold">
-                        % OF SALARY THAT CAN BE MADE THROUGH SUPPLEMENTAL INCOME BY TOP PROFESSIONALS
-                        ACROSS AGE GROUPS/SECTOR
+                        <h6 class="font-weight-light"> In line with exponential growth in technology and the abundance
+                            of opportunities, successful SMEs are exponential organisations with scalable systems,
+                            processes, structures, people, culture, KPIs. Exponential Organisations scale at a minimum,
+                            10x better than their peers in the same space. </h6>
+                        EXPONENTIAL ORGANISATIONS: WHY NEW ORGANIZATIONS ARE TEN TIMES BETTER, FASTER, CHEAPER THAN
+                        YOURS( AND WHAT TO DO ABOUT IT) - SALIM ISMAIL
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body font-weight-bold">
-                        SMMES FACE AN ISSUE IN ACCESSING AND AFFORDING HUMAN CAPITAL FOR THEIR BUSINESSES
+                        <h6 class="font-weight-light"> South African SMEs face pressures in accessing, affording and
+                            securing the right skills for their businesses. The demand for certain skills far outstrips
+                            the supply of such skills. </h6>
+                        THE SMALL, MEDUIM AND MICRO ENTERPRISE SECTOR OF SOUTH AFRICA, 2016
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body font-weight-bold">
+                        <h6 class="font-weight-light">Staff on demand (freelancers) allows for speed, functionality and
+                            flexibility to respond to the fast rate of change. It shifts business from a scarcity
+                            mindset to an abundance reality. </h6>
+
                     </div>
                 </div>
             </div>
@@ -134,163 +176,177 @@
 
     <section id="how-to-use">
         <div class="main-text">
-            <h2 class="text-center">EASE TO USE</h2>
-            <p class="text-center">How are we enabling seamless collaboration between all stakeholders and also solving
-                for integrity,
-                efficiency and transparency.</p>
-            <p class="text-center">Select</p>
+            <h2 class="text-center">EASE TO USER</h2>
+            <div class="container">
+                <p class="text-center">
+                    We partner with SME Ecosystem funders to direct their funding towards implemented interventions that
+                    drive sustainable and scalable SME growth | We create a marketplace for freelancers to work with and
+                    create value for SMEs to position them as exponential in Africa | We roll up our sleeves to
+                    implement solutions to SMEs biggest issues to drive them to scale and to be positioned for
+                    exponential growth.
+                </p>
+            </div>
+            <!-- <p class="text-center">Select</p> -->
             <!-- collapse example -->
 
-<!--             <div class="btn-group btn-toggle">
+            <!--             <div class="btn-group btn-toggle">
                 <button class=" btn btn-primary active" data-toggle="collapse" data-target="#collapsible"
                     aria-pressed="true">freelancers</button>
                 <button class="btn btn-default" data-toggle="collapse" data-target="#collapsible">Close</button>
             </div> -->
 
             <div class="w3-bar w3-black">
-                    <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'freelancer')">Freelancers</button>
-                    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'business')">Business</button>
- 
-                  </div>
+                <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'freelancer')">SME
+                    Funders</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'business')">Freelancers</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'bt')">SMEs</button>
+
+            </div>
 
 
+
+
+
+            
 
 
 
         </div>
         <!-- FREELANCER-->
         <div id="freelancer" class="w3-container w3-border howtouse">
-        <div class="container">
-            <div id="freelancers" class="row text-center">
-                <div class="col-sm-3">
-                    <div class="card card-size">
-                        <div class="card-body">
-                            <div class="number">1</div>
-                            <div class="how-img">
-                                <img src="./assets/imgs/illustration-3.png" alt="" srcset="">
-                            </div>
-                            <div class="text-center">
-                                <h3 class="how-to-text">Sign up</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card card-size">
-                        <div class="card-body">
-                            <div class="number">2</div>
-                            <div class="how-img">
-                                <img src="./assets/imgs/illustration-6.png" alt="" srcset="">
-                            </div>
-                            <div class="text-center">
-                                <h3 class="how-to-text">Get staffed on a product</h3>
+            <div class="container">
+                <div id="freelancers" class="row text-center">
+                    <div class="col-sm-3">
+                        <div class="card card-size">
+                            <div class="card-body">
+                                <div class="number">1</div>
+                                <div class="how-img">
+                                    <img src="./assets/imgs/illustration-3.png" alt="" srcset="">
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="how-to-text">Sign up</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card card-size">
-                        <div class="card-body">
-                            <div class="number">3</div>
-                            <div class="how-img">
-                                <img src="./assets/imgs/illustration-4.png" alt="" srcset="">
-                            </div>
-                            <div class="text-center">
-                                <h3 class="how-to-text">Collaborate to grow an SMME</h3>
+                    <div class="col-sm-3">
+                        <div class="card card-size">
+                            <div class="card-body">
+                                <div class="number">2</div>
+                                <div class="how-img">
+                                    <img src="./assets/imgs/illustration-6.png" alt="" srcset="">
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="how-to-text">Get staffed on a product</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="card-body card-size">
-                            <div class="number">4</div>
-                            <div class="how-img">
-                                <img src="./assets/imgs/illustration-5.png" alt="" srcset="">
+                    <div class="col-sm-3">
+                        <div class="card card-size">
+                            <div class="card-body">
+                                <div class="number">3</div>
+                                <div class="how-img">
+                                    <img src="./assets/imgs/illustration-7.png" alt="" srcset="">
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="how-to-text">Collaborate to grow an SMME</h3>
+                                </div>
                             </div>
-                            <div class="text-center">
-                                <h3 class="how-to-text">Get paid</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body card-size">
+                                <div class="number">4</div>
+                                <div class="how-img">
+                                    <img src="./assets/imgs/illustration-5.png" alt="" srcset="">
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="how-to-text">Get paid</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
 
 
         <!-- BUSINESS PEOPLE-->
         <div id="business" class="w3-container w3-border howtouse" style="display:none">
-                <div class="container">
-                        <div id="freelancers" class="row text-center">
-                            <div class="col-sm-3">
-                                <div class="card card-size">
-                                    <div class="card-body">
-                                        <div class="number">1</div>
-                                        <div class="how-img">
-                                            <img src="./assets/imgs/illustration-3.png" alt="" srcset="">
-                                        </div>
-                                        <div class="text-center">
-                                            <h3 class="how-to-text">Get in touch with your problem to solve</h3>
-                                        </div>
-                                    </div>
+            <div class="container">
+                <div id="freelancers" class="row text-center">
+                    <div class="col-sm-3">
+                        <div class="card card-size">
+                            <div class="card-body">
+                                <div class="number">1</div>
+                                <div class="how-img">
+                                    <img src="./assets/imgs/illustration-3.png" alt="" srcset="">
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="how-to-text">Get in touch with your problem to solve</h3>
                                 </div>
                             </div>
-                            <div class="col-sm-3">
-                                <div class="card card-size">
-                                    <div class="card-body">
-                                        <div class="number">2</div>
-                                        <div class="how-img">
-                                            <img src="./assets/imgs/illustration-5.png" alt="" srcset="">
-                                        </div>
-                                        <div class="text-center">
-                                            <h3 class="how-to-text">Project scoping completed with our Subject Matter Experts</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="card card-size">
-                                    <div class="card-body">
-                                        <div class="number">3</div>
-                                        <div class="how-img">
-                                            <img src="./assets/imgs/illustration-6.png" alt="" srcset="">
-                                        </div>
-                                        <div class="text-center">
-                                            <h3 class="how-to-text">Select the additional specialists needed on your project team</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="card">
-                                    <div class="card-body card-size">
-                                        <div class="number">4</div>
-                                        <div class="how-img">
-                                            <img src="./assets/imgs/illustration-4.png" alt="" srcset="">
-                                        </div>
-                                        <div class="text-center">
-                                            <h3 class="how-to-text">Collaborate with great on-demand talent</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                    <div class="card">
-                                        <div class="card-body card-size">
-                                            <div class="number">5</div>
-                                            <div class="how-img">
-                                                <img src="./assets/imgs/illustration-5.png" alt="" srcset="">
-                                            </div>
-                                            <div class="text-center">
-                                                <h3 class="how-to-text">Grow, Scale and create jobs</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> 
                         </div>
                     </div>
-         </div>
+                    <div class="col-sm-3">
+                        <div class="card card-size">
+                            <div class="card-body">
+                                <div class="number">2</div>
+                                <div class="how-img">
+                                    <img src="./assets/imgs/illustration-6.png" alt="" srcset="">
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="how-to-text">Project scoping completed with our Subject Matter Experts
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card card-size">
+                            <div class="card-body">
+                                <div class="number">3</div>
+                                <div class="how-img">
+                                    <img src="./assets/imgs/illustration-3.png" alt="" srcset="">
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="how-to-text">Select the additional specialists needed on your project
+                                        team</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body card-size">
+                                <div class="number">4</div>
+                                <div class="how-img">
+                                    <img src="./assets/imgs/illustration-4.png" alt="" srcset="">
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="how-to-text">Collaborate with great on-demand talent</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body card-size">
+                                <div class="number">5</div>
+                                <div class="how-img">
+                                    <img src="./assets/imgs/illustration-5.png" alt="" srcset="">
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="how-to-text">Grow, Scale and create jobs</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -417,17 +473,24 @@
 
         <div class="row">
             <div class="col">
-                <br><br><br>
-                &copy; Perpetu8 (Pty) 2018. All right Reserved
+                <br><br><br><br>
+                &copy; Perpetu8 (Pty) 2019. All right Reserved
             </div>
             <div class="col">
-                <p class="text-right">Our Address - <br>
-                    6803 Dickens Islands Apt. 567, <br>
-                    Port Malikaview,<br>
-                    TX 14942
-                </p>
+                <br><br><br>
                 <p class="text-right"> Our Social media - <br>
-                    Facebook Twitter Instagram Linkedin
+                    <a href="https://www.linkedin.com/company/perpetu8/">
+                        <span style="color:#4875B4; font-size:30px;margin-right: 2%;"> <i
+                                class="fab fa-linkedin-square"></i></span>
+                    </a>
+                    <a href="https://www.instagram.com/perpetu8_africa">
+                        <span style="color:#4E433C; font-size:30px;margin-right: 2%;"> <i
+                                class="fab fa-instagram"></i></span>
+                    </a>
+                    <a href="https://twitter.com/Perpetu8_Africa">
+                        <span style="color:#33CCFF; font-size:30px;margin-right: 2%;"> <i
+                                class="fab fa-twitter-square"></i></span>
+                    </a>
                 </p>
             </div>
         </div>
@@ -446,6 +509,7 @@
         crossorigin="anonymous"></script>
     <script src="./assets/js/index.js"></script>
     <script src="./assets/js/carousel.js"></script>
+
 
 </body>
 

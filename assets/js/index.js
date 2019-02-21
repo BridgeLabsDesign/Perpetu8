@@ -12,3 +12,17 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " w3-red";
 }
+
+ $('li').on('click', function(){
+  $('li').removeClass('active');
+  $(this).toggleClass('active');
+}) 
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+
