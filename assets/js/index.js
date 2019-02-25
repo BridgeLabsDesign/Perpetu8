@@ -13,10 +13,10 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " w3-red";
 }
 
- $('li').on('click', function(){
+$('li').on('click', function () {
   $('li').removeClass('active');
   $(this).toggleClass('active');
-}) 
+})
 
 $(function () {
   $(document).scroll(function () {
@@ -25,4 +25,24 @@ $(function () {
   });
 });
 
+/* Slide to view form */
+$('.sign-up-form').click(function (evt) {
+  evt.stopPropagation();
+  evt.preventDefault();
+  $(".wrapper").addClass('body-slid')
+  $('.form-view').addClass('form-view-active');
+  $('.navbar').css({ position: 'relative' })
 
+})
+$("body").delegate("#close-form-view", "click", function (event) {
+  event.preventDefault();
+  $( ".wrapper" ).removeClass('body-slid')
+  $('.form-view').removeClass('form-view-active');
+  $('.navbar').css({ position: 'fixed' })
+})
+$( window ).scroll(function(evt) {
+  $( ".wrapper" ).removeClass('body-slid')
+  $('.form-view').removeClass('form-view-active');
+  $('.navbar').css({ position: 'fixed' })
+});
+/* ==== */
