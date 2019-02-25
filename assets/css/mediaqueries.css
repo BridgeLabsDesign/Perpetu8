@@ -12,7 +12,7 @@
 
 
 
-@media screen and (min-width: 768px) and (max-width: 15211px) and (orientation: landscape) {
+@media screen and (min-width: 1521px) and (max-width: 20000px) and (orientation: landscape) {
 /* general style for the form */
 .header-img {
   height: 84% !important;
@@ -62,7 +62,7 @@ margin-left: 0% !important;
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 15211px) and (orientation: landscape) {
+@media screen and (min-width: 1262px) and (max-width: 1521px) and (orientation: landscape) {
   .header-img {
     height: 70% !important;
     margin-left: 0% !important;
