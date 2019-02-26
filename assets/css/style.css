@@ -147,6 +147,7 @@ p {
   background-position-x: -30%;
   color: rgb(3, 3, 95);
   font-family: "Perpetua" !important;
+ 
 }
 
 .main-text {
@@ -164,9 +165,22 @@ p {
   border-radius: 2px;
   display: inline-block;
   height: auto;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   position: relative;
   width: 100%;
+  color: rgb(3, 3, 95);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  font-family: "Perpetua" !important;
+}
+
+.card1 {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: auto;
+
+  position: relative;
+
   color: rgb(3, 3, 95);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   font-family: "Perpetua" !important;
@@ -305,3 +319,5 @@ p {
   margin-left: 15px;
   font-family: "Perpetua" !important;
 }
+
+
