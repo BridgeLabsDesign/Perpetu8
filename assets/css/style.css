@@ -310,7 +310,7 @@ p {
   font-family: "Perpetua" !important;
 }
 
-.row {
+/* .row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -318,6 +318,6 @@ p {
   margin-right: 15px;
   margin-left: 15px;
   font-family: "Perpetua" !important;
-}
+} */
 
 
