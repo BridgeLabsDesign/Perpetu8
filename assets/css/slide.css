@@ -38,3 +38,36 @@
     }
   }
   
+  /* Slide form */
+.body-slid {
+  left: -650px !important;
+}
+
+.wrapper { /* wrapper needs to be in a div containing all the content */
+  position: relative;
+  left: 0;
+  -webkit-transition: right 1s, left 1s;
+  transition: right 1s, left 1s;
+}
+
+.form-view{
+  position: fixed;
+  top: 0px;
+  right: -650px;
+  width: 650px;
+  height: 100vh;
+  -webkit-transition: right 1s;
+  transition: right 1s;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.form-view-active {
+  right: 0px;
+}
+
+#close-form-view{
+  cursor: pointer;
+  content: "\e001";
+}

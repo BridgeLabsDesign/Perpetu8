@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Perpetus</title>
-   
+
     <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/mobile.css">
@@ -17,10 +17,17 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-         <!-- Bootstrap css -->
+    <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
     <script src="https://use.fontawesome.com/1156f4d5d4.js"></script>
+
+
 
 
 </head>
@@ -41,22 +48,33 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto" id="nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home
+                            <a class="nav-link" href="#"><b>H</b>ome
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#stats">Our Why</a>
+                            <a class="nav-link" href="#stats"><b>O</b>ur Why</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#how-to-use">Our How</a>
+                            <a class="nav-link" href="#how-to-use"><b>O</b>ur How</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link sign-up-form" href="#">Sign Up</a>
+                            <a class="nav-link" href="#testimonial"><b>O</b>ur Wows</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link sign-up-form" href="#"><b>S</b>ign Up</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contactus">Contact us </a>
+                            <a class="nav-link" href="#contactus">Contact <b>U</b>s </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/perpetu8">
+                                <span style="color:#3C5A99; font-size:30px;margin-right: 2%;"> <i
+                                        class="fab fa-facebook"></i></span>
+                            </a>
+                        </li>
+
                         <li class="nav-item">
                             <a href="https://www.linkedin.com/company/perpetu8/">
                                 <span style="color:#4875B4; font-size:30px;margin-right: 2%;"> <i
@@ -82,7 +100,7 @@
 
             <!-- Header Content -->
             <div class="header-content">
-                
+
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <img class="header-img" src="./assets/imgs/illustration-1.png" alt="" srcset="">
@@ -113,17 +131,18 @@
                         <a class="custom-btn" href="#">Sign-up with Linkedin</a> -->
                         </div>
                     </div>
-                    <div class="col-12">
-                        <img class="mx-auto d-block" src="./assets/imgs/arrow-down.png" alt="" srcset="">
-                    </div>
+
                 </div>
             </div>
         </header>
 
         <!-- Stats -->
         <section id="stats">
+            <div class="col-12" style="padding:3%">
+                <img class="mx-auto d-block" src="./assets/imgs/arrow-down.png" alt="" srcset="">
+            </div>
             <div class="main-text">
-                <h2 class="text-center">STATS</h2>
+                <h2 class="text-center">OUR WHY</h2>
             </div>
             <div class="row">
                 <div class="col-sm-6">
@@ -131,52 +150,61 @@
                 </div>
                 <div class="col-sm-6 p-5">
                     <div class="card">
-                        <div class="card-body font-weight-bold">
-                            <h6 class="font-weight-light "> Africa holds 10.1% of the world’s freelancers. Higher than
+                        <div class="card-body ">
+                            <h6 class="font-weight-light sourcetitle"> Africa holds 10.1% of the world’s freelancers.
+                                Higher than
                                 North
                                 America (4.1%) and the Middle East (1%)</h6>
-                            THE PAYONEER FREELANCER INCOME SURVEY 2018
+
+                            <h6 class="font-weight-bold source">- The Payoneer Freelancer Income Survey 2018</h6>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body font-weight-bold">
-                            <h6 class="font-weight-light"> Freelance market brought in $5 billion into Africa by 2016.
+                            <h6 class="font-weight-light sourcetitle">Freelance market brought in $5 billion into Africa
+                                by 2016.
                             </h6>
-                            ROCKEFELLER FOUNDATION
+                            <h6 class="font-weight-bold source">- Rockefeller Foundation</h6>
 
 
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body font-weight-bold">
-                            <h6 class="font-weight-light"> 47% of working millennials freelance in some capacity. </h6>
-                            FREELANCING IN AMERICA:2017
+                            <h6 class="font-weight-light sourcetitle"> 47% of working millennials freelance in some
+                                capacity. </h6>
+                            <h6 class="font-weight-bold source">- Freelancing in America:2017 </h6>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body font-weight-bold">
-                            <h6 class="font-weight-light"> In line with exponential growth in technology and the
+                            <h6 class="font-weight-light sourcetitle"> In line with exponential growth in technology and
+                                the
                                 abundance
                                 of opportunities, successful SMEs are exponential organisations with scalable systems,
                                 processes, structures, people, culture, KPIs. Exponential Organisations scale at a
                                 minimum,
                                 10x better than their peers in the same space. </h6>
-                            EXPONENTIAL ORGANISATIONS: WHY NEW ORGANIZATIONS ARE TEN TIMES BETTER, FASTER, CHEAPER THAN
-                            YOURS( AND WHAT TO DO ABOUT IT) - SALIM ISMAIL
+                            <h6 class="font-weight-bold source">- Exponential Organisations: Why New Organizations Are
+                                Ten Times Better, Faster, Cheaper Than Yours (and What to Do About It) - Salim Ismail
+                            </h6>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body font-weight-bold">
-                            <h6 class="font-weight-light"> South African SMEs face pressures in accessing, affording and
+                            <h6 class="font-weight-light sourcetitle"> South African SMEs face pressures in accessing,
+                                affording and
                                 securing the right skills for their businesses. The demand for certain skills far
                                 outstrips
                                 the supply of such skills. </h6>
-                            THE SMALL, MEDUIM AND MICRO ENTERPRISE SECTOR OF SOUTH AFRICA, 2016
+                            <h6 class="font-weight-bold source">- The Small, Medium and Micro Enterprise Sector of South
+                                Africa, 2016</h6>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body font-weight-bold">
-                            <h6 class="font-weight-light">Staff on demand (freelancers) allows for speed, functionality
+                            <h6 class="font-weight-light sourcetitle">Staff on demand (freelancers) allows for speed,
+                                functionality
                                 and
                                 flexibility to respond to the fast rate of change. It shifts business from a scarcity
                                 mindset to an abundance reality. </h6>
@@ -192,16 +220,27 @@
 
         <section id="how-to-use">
             <div class="main-text">
-                <h2 class="text-center">EASE TO USER</h2>
+                <h2 class="text-center">OUR HOW</h2>
                 <div class="container">
                     <p class="text-center">
-                        We partner with SME Ecosystem funders to direct their funding towards implemented interventions
-                        that
-                        drive sustainable and scalable SME growth | We create a marketplace for freelancers to work with
-                        and
-                        create value for SMEs to position them as exponential in Africa | We roll up our sleeves to
-                        implement solutions to SMEs biggest issues to drive them to scale and to be positioned for
-                        exponential growth.
+                        <i>
+                            We partner with SME Ecosystem funders to direct their funding towards implemented
+                            interventions
+                            that drive sustainable and scalable SME growth
+                        </i>
+                    </p>
+                    <p class="text-center">
+                        <i>
+                            We create a marketplace for freelancers to work with and create value for SMEs to position
+                            them as exponential in Africa
+                        </i>
+                    </p>
+                    <p class="text-center">
+                        <i>
+                            We roll up our sleeves to implement solutions to SMEs biggest issues to drive them to scale
+                            and to be positioned for
+                            exponential growth.
+                        </i>
                     </p>
                 </div>
                 <!-- <p class="text-center">Select</p> -->
@@ -234,7 +273,8 @@
                                         <img src="./assets/imgs/illustration-3.png" alt="" srcset="">
                                     </div>
                                     <div class="text-center">
-                                        <h3 class="how-to-text">Partner with us to deliver implementation support to SMEs</h3>
+                                        <h3 class="how-to-text">Partner with us to deliver implementation support to
+                                            SMEs</h3>
                                     </div>
                                 </div>
                             </div>
@@ -247,7 +287,8 @@
                                         <img src="./assets/imgs/illustration-6.png" alt="" srcset="">
                                     </div>
                                     <div class="text-center">
-                                        <h3 class="how-to-text">Watch us find the best freelancers to work with the SMEs</h3>
+                                        <h3 class="how-to-text">Watch us find the best freelancers to work with the SMEs
+                                        </h3>
                                     </div>
                                 </div>
                             </div>
@@ -327,7 +368,7 @@
                                 </div>
                             </div>
                         </div>
-                       <div class="col-sm-3">
+                        <div class="col-sm-3">
                             <div class="card">
                                 <div class="card-body card-size">
                                     <div class="number">4</div>
@@ -340,7 +381,7 @@
                                 </div>
                             </div>
                         </div>
-      <!--                    <div class="col-sm-3">
+                        <!--                    <div class="col-sm-3">
                             <div class="card">
                                 <div class="card-body card-size">
                                     <div class="number">5</div>
@@ -360,7 +401,7 @@
             <!-- SMEs-->
             <div id="sme" class="w3-container w3-border howtouse slide-in-right" style="display:none">
                 <div class="container">
-                    <div id="freelancers" class="row text-center">
+                    <div id="smes" class="row text-center">
                         <div class="col-sm-3">
                             <div class="card card-size">
                                 <div class="card-body">
@@ -396,7 +437,8 @@
                                         <img src="./assets/imgs/illustration-3.png" alt="" srcset="">
                                     </div>
                                     <div class="text-center">
-                                        <h3 class="how-to-text">Select any additional specialists needed for your project team.</h3>
+                                        <h3 class="how-to-text">Select any additional freelancers needed for your
+                                            project team.</h3>
                                     </div>
                                 </div>
                             </div>
@@ -439,33 +481,142 @@
         <!-- Testimonial -->
         <section id="testimonial">
             <div class="main-text">
-                <h2 class="text-center">TESTIMONIAL</h2>
+                <h2 class="text-center">OUR WOWS</h2>
 
 
             </div>
 
             <div class="container">
 
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="col-sm">
+                                <div class="card1">
+                                    <div class="card-body ">
+                                        <span><img class="Card-image" src="./assets/imgs/Glenn.jpeg"> </span>
+                                        <span class="title-sub">
+                                            <h5 class="card-title source">Glenn Gillis </h5>
+                                            <h6 class="card-subtitle mb-2 text-muted source">Founder & CEO: SeaMonster
+                                            </h6>
+                                        </span>
+                                        <h6 class="font-weight-light ">
+                                            <i>Perpetu8 recently provided some consulting work with my company, Sea
+                                                Monster. S’onqoba is without doubt one of the most competent, insightful
+                                                and talented people I have ever met. She has an enquiring mind, great
+                                                intelligence and a huge work ethic, and yet she manages to combine this
+                                                with a sense of fun and compassion. She has a great understanding of
+                                                business, the realities faced by start-ups and scale-ups and how true
+                                                value and transformation will be created. The fact that she wants to
+                                                dedicate her life to helping others, and solving some of the biggest
+                                                social challenges we face as a society, rather than pursuing a
+                                                traditional corporate career (which she would excel at) is a testament
+                                                to her deep and sincere belief that the world can and must be a better
+                                                place tomorrow than it is today. </i>
+                                        </h6>
+                                        <h6 class="font-weight-bold source">- Glenn Gillis, Founder & CEO: SeaMonster
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
 
 
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-sm">
+                                <div class="card1">
+                                    <div class="card-body ">
+                                        <span><img class="Card-image" src="./assets/imgs/Glenn.jpeg"> </span>
+                                        <span class="title-sub">
+                                            <h5 class="card-title source">Glenn Gillis </h5>
+                                            <h6 class="card-subtitle mb-2 text-muted source">Founder & CEO: SeaMonster
+                                            </h6>
+                                        </span>
+                                        <h6 class="font-weight-light ">
+                                            <i>Perpetu8 recently provided some consulting work with my company, Sea
+                                                Monster. S’onqoba is without doubt one of the most competent, insightful
+                                                and talented people I have ever met. She has an enquiring mind, great
+                                                intelligence and a huge work ethic, and yet she manages to combine this
+                                                with a sense of fun and compassion. She has a great understanding of
+                                                business, the realities faced by start-ups and scale-ups and how true
+                                                value and transformation will be created. The fact that she wants to
+                                                dedicate her life to helping others, and solving some of the biggest
+                                                social challenges we face as a society, rather than pursuing a
+                                                traditional corporate career (which she would excel at) is a testament
+                                                to her deep and sincere belief that the world can and must be a better
+                                                place tomorrow than it is today. </i>
+                                        </h6>
+                                        <h6 class="font-weight-bold source">- Glenn Gillis, Founder & CEO: SeaMonster
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                                <div class="swiper-slide">
+                                        <div class="col-sm">
+                                            <div class="card1">
+                                                <div class="card-body ">
+                                                    <span><img class="Card-image" src="./assets/imgs/Glenn.jpeg"> </span>
+                                                    <span class="title-sub">
+                                                        <h5 class="card-title source">Glenn Gillis </h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted source">Founder & CEO: SeaMonster
+                                                        </h6>
+                                                    </span>
+                                                    <h6 class="font-weight-light ">
+                                                        <i>Perpetu8 recently provided some consulting work with my company, Sea
+                                                            Monster. S’onqoba is without doubt one of the most competent, insightful
+                                                            and talented people I have ever met. She has an enquiring mind, great
+                                                            intelligence and a huge work ethic, and yet she manages to combine this
+                                                            with a sense of fun and compassion. She has a great understanding of
+                                                            business, the realities faced by start-ups and scale-ups and how true
+                                                            value and transformation will be created. The fact that she wants to
+                                                            dedicate her life to helping others, and solving some of the biggest
+                                                            social challenges we face as a society, rather than pursuing a
+                                                            traditional corporate career (which she would excel at) is a testament
+                                                            to her deep and sincere belief that the world can and must be a better
+                                                            place tomorrow than it is today. </i>
+                                                    </h6>
+                                                    <h6 class="font-weight-bold source">- Glenn Gillis, Founder & CEO: SeaMonster
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                        ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
 
-                <div class="container-caro">
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+
+                </div>
+
+
+                <!--                 <div class="container-caro">
 
                     <div class="carousel-wrapper">
                         <ul id="templates">
 
                             <div class="col-sm">
                                     <div class="card1">
-                                            <div class="card-body font-weight-bold">
-                                                    <span><img class="Card-image" src="./assets/imgs/illustration-4.png"> </span>
+                                            <div class="card-body ">
+                                                    <span><img class="Card-image" src="./assets/imgs/Glenn.jpeg"> </span>
                                                     <span class="title-sub">
-                                                        <h5 class="card-title">Glenn Gillis </h5>
-                                                         <h6 class="card-subtitle mb-2 text-muted">Founder & CEO: SeaMonster</h6> 
+                                                        <h5 class="card-title source">Glenn Gillis </h5>
+                                                         <h6 class="card-subtitle mb-2 text-muted source">Founder & CEO: SeaMonster</h6> 
                                                     </span>
                                                 <h6 class="font-weight-light "> 
-                                                        Perpetu8 recently she provided some consulting work with my company, Sea Monster. Sonqoba is without doubt one of the most competent, insightful and talented people I have ever met. She has an enquiring mind, great intelligence and a huge work ethic, and yet she manages to combine this with a sense of fun and compassion. She has a great understanding of business, the realities faced by start-ups and scale-ups and how true value and transformation will be created. The fact that she wants to dedicate her life to helping others, and solving some of the biggest social challenges we face as a society, rather than pursuing a traditional corporate career (which she would excel at) is a testament to her deep and sincere belief that the world can and must be a better place tomorrow than it is today.
+                                                        <i>Perpetu8 recently provided some consulting work with my company, Sea Monster. S’onqoba is without doubt one of the most competent, insightful and talented people I have ever met. She has an enquiring mind, great intelligence and a huge work ethic, and yet she manages to combine this with a sense of fun and compassion. She has a great understanding of business, the realities faced by start-ups and scale-ups and how true value and transformation will be created. The fact that she wants to dedicate her life to helping others, and solving some of the biggest social challenges we face as a society, rather than pursuing a traditional corporate career (which she would excel at) is a testament to her deep and sincere belief that the world can and must be a better place tomorrow than it is today. </i>
                                                 </h6>
-                                                Glenn Gillis, Founder & CEO: SeaMonster
+                                               <h6 class="font-weight-bold source">- Glenn Gillis, Founder & CEO: SeaMonster</h6> 
                                             </div>
                                         </div>
 
@@ -473,16 +624,16 @@
 
                             <div class="col-sm">
                                     <div class="card1">
-                                            <div class="card-body font-weight-bold">
-                                                    <span><img class="Card-image" src="./assets/imgs/illustration-4.png"> </span>
+                                            <div class="card-body ">
+                                                    <span><img class="Card-image" src="./assets/imgs/Glenn.jpeg"> </span>
                                                     <span class="title-sub">
-                                                        <h5 class="card-title">Glenn Gillis </h5>
-                                                         <h6 class="card-subtitle mb-2 text-muted">Founder & CEO: SeaMonster</h6> 
+                                                        <h5 class="card-title source">Glenn Gillis </h5>
+                                                         <h6 class="card-subtitle mb-2 text-muted source">Founder & CEO: SeaMonster</h6> 
                                                     </span>
                                                 <h6 class="font-weight-light "> 
-                                                        Perpetu8 recently she provided some consulting work with my company, Sea Monster. Sonqoba is without doubt one of the most competent, insightful and talented people I have ever met. She has an enquiring mind, great intelligence and a huge work ethic, and yet she manages to combine this with a sense of fun and compassion. She has a great understanding of business, the realities faced by start-ups and scale-ups and how true value and transformation will be created. The fact that she wants to dedicate her life to helping others, and solving some of the biggest social challenges we face as a society, rather than pursuing a traditional corporate career (which she would excel at) is a testament to her deep and sincere belief that the world can and must be a better place tomorrow than it is today.
+                                                        <i>Perpetu8 recently provided some consulting work with my company, Sea Monster. S’onqoba is without doubt one of the most competent, insightful and talented people I have ever met. She has an enquiring mind, great intelligence and a huge work ethic, and yet she manages to combine this with a sense of fun and compassion. She has a great understanding of business, the realities faced by start-ups and scale-ups and how true value and transformation will be created. The fact that she wants to dedicate her life to helping others, and solving some of the biggest social challenges we face as a society, rather than pursuing a traditional corporate career (which she would excel at) is a testament to her deep and sincere belief that the world can and must be a better place tomorrow than it is today. </i>
                                                 </h6>
-                                                Glenn Gillis, Founder & CEO: SeaMonster
+                                               <h6 class="font-weight-bold source">- Glenn Gillis, Founder & CEO: SeaMonster</h6> 
                                             </div>
                                         </div>
 
@@ -513,7 +664,7 @@
                                 id="icon-single-arrow-22px" fill="#3D4752"></path>
                         </svg>
                     </div>
-                </div>
+                </div> -->
 
 
 
@@ -522,7 +673,6 @@
 
 
         </section>
-
 
 
 
@@ -539,6 +689,12 @@
                 <div class="col">
                     <br><br><br>
                     <p class="text-right"> Our Social media - <br>
+
+                        <a href="https://www.facebook.com/perpetu8">
+                            <span style="color:#3C5A99; font-size:30px;margin-right: 2%;"> <i
+                                    class="fab fa-facebook"></i></span>
+                        </a>
+
                         <a href="https://www.linkedin.com/company/perpetu8/">
                             <span style="color:#4875B4; font-size:30px;margin-right: 2%;"> <i
                                     class="fab fa-linkedin-square"></i></span>
@@ -566,25 +722,25 @@
             <a id="close-form-view"><i style="color: #ffc728; font-size:26px;" class="fas fa-times-circle"></i></a>
         </div>
         <div class="form">
-                <div class="form_wrapper">
-                        <div class="form_container">
-                          <div class="title_container">
-                            <h2>Sign up Form</h2>
-                          </div>
-                          <div class="row clearfix">
-                            <div class="">
-                              <form>
-                            <div class="input_field radio_option">
-                                You are a: <br>
+            <div class="form_wrapper">
+                <div class="form_container">
+                    <div class="title_container">
+                        <h2>Sign up Form</h2>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="">
+                            <form>
+                                <div class="input_field radio_option">
+                                    You are a: <br>
 
-                                            <input type="radio" name="radiogroup1" id="rd1">
-                                            <label for="rd1">Freelancer </label>
-                                            <input type="radio" name="radiogroup1" id="rd2">
-                                            <label for="rd2">SME business</label>
-                                            <input type="radio" name="radiogroup1" id="rd3">
-                                            <label for="rd3">Funder in the Ecosystem</label>
-                            </div>
-<!--                             <div class="row clearfix">
+                                    <input type="radio" name="radiogroup1" id="rd1" required>
+                                    <label for="rd1">Freelancer </label>
+                                    <input type="radio" name="radiogroup1" id="rd2">
+                                    <label for="rd2">SME business</label>
+                                    <input type="radio" name="radiogroup1" id="rd3">
+                                    <label for="rd3">Funder in the Ecosystem</label>
+                                </div>
+                                <!--                             <div class="row clearfix">
                                     <div class="col_half">
                                       <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
                                         <input type="text" name="name" placeholder="First Name" />
@@ -596,31 +752,33 @@
                                       </div>
                                     </div>
                             </div> -->
-                            <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-                                <input type="text" name="name" placeholder="First Name" />
-                              </div>
-                              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-                                <input type="text" name="name" placeholder="Last Name" required />
-                              </div>
+                                <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                                    <input type="text" name="name" placeholder="First Name" required />
+                                </div>
+                                <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                                    <input type="text" name="name" placeholder="Last Name" required />
+                                </div>
                                 <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
-                                  <input type="email" name="email" placeholder="Email" required />
+                                    <input type="email" name="email" placeholder="Email" required />
                                 </div>
 
                                 <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
-                                  <input type="text" name="phone number" placeholder="Contact Number" required />
+                                    <input type="text" name="phone number" placeholder="Contact Number" maxlength="10"
+                                        pattern="\d{10}" title="Please enter exactly 10 digits" required />
                                 </div>
-                              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-                                  <input type="text" name="linkedin" placeholder="Linkedin Profile/ Company Website" required />
-                                </div> 
+                                <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                                    <input type="url" name="linkedin" placeholder="Linkedin Profile/ Company Website"
+                                        required />
+                                </div>
 
-                                    
-<!--                                     <div class="input_field select_option">
+
+                                <!--                                     <div class="input_field select_option">
                                       <select>
                                         <option>Select a country</option>
                                         <option>Option 1</option>
                                         <option>Option 2</option>
                                       </select> -->
-<!--                                       <div class="select_arrow"></div>
+                                <!--                                       <div class="select_arrow"></div>
                                     </div>
                                   <div class="input_field checkbox_option">
                                       <input type="checkbox" id="cb1">
@@ -631,12 +789,12 @@
                                       <label for="cb2">I want to receive the newsletter</label>
                                   </div> -->
                                 <input class="button" type="submit" value="SUBMIT" />
-                              </form>
-                            </div>
-                          </div>
+                            </form>
                         </div>
-                      </div>
-                      <p class="credit">Perpeyu8<a href="#" target="_blank"></a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- <p class="credit">Perpeyu8<a href="#" target="_blank"></a></p> -->
         </div>
 
     </div>
@@ -651,8 +809,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="assets/js/notify.js"></script>
+    <script src="assets/js/notify.min.js"></script>
+
     <script src="./assets/js/index.js"></script>
     <script src="./assets/js/carousel.js"></script>
+
 
 
 </body>

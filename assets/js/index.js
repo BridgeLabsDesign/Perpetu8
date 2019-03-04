@@ -1,3 +1,23 @@
+var mySwiper = new Swiper ('.swiper-container', {
+  // Optional parameters
+  
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  slidesPerView: 1,
+  //width: 1000
+
+})
+
 
 function openCity(evt, cityName) {
   var i, x, tablinks;
@@ -46,3 +66,71 @@ $( window ).scroll(function(evt) {
   $('.navbar').css({ position: 'fixed' })
 });
 /* ==== */
+
+function submit(){
+  $.notify.addStyle('foo', {
+      html:
+          "<div class=''>" +
+          "<div class='clearfix notify-custom'>" +
+          "<div class='title' data-notify-html='title'/>" +
+          "<div class='buttons'>" +
+          /* "<button class='no'>Cancel</button>" + */
+          "<button class='yes notify-button' data-notify-text='button'></button>" +
+          "</div>" +
+          "</div>" +
+          "</div>"
+  });
+
+  //listen for click events from this style
+  $(document).on('click', '.notifyjs-foo-base .no', function () {
+      //programmatically trigger propogating hide event
+ 
+      $(this).trigger('notify-hide');
+  });
+  $(document).on('click', '.notifyjs-foo-base .yes', function () {
+      //show button text
+      /*  alert($(this).text() + " clicked!"); */
+      //hide notification
+    
+      $(this).trigger('notify-hide');
+  });
+ 
+      $.notify({
+          title: 'Please log in to get personalized deals, activate video calling with our sales team and get the latest Digicars news directly to your inbox?',
+          button: 'OK'
+      }, {
+              style: 'foo',
+              autoHide: false,
+              clickToHide: false
+          });
+  
+        }
+
+
+        $(document).ready(function(){
+$('#submit').click(function(){
+  var select = document.getElementById();
+  var name = document.getElementById();
+  var email = document.getElementById();
+  var phone = document.getElementById();
+  var linkedin = document.getElementById();
+  var varData = 'name='+name +'&email='+email
+console.log(varData);
+$.ajax({
+  type:"POST",
+  url:'../php/sendemail.php',
+  data:varData,
+  success: function(){
+    alert("It was a success")
+  }
+})
+                
+  
+    
+  
+  
+  
+  
+})
+        });
+
