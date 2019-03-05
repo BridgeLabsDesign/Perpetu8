@@ -91,5 +91,5 @@ ul li:hover {
 .swiper-container {
   overflow: hidden !important;
   width: auto;
-  height: auto;
+  height: 355px !important;
 }
