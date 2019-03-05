@@ -22,15 +22,21 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
-
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            position: relative; 
+          
+        }
+      
+</style>
 
 
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="wrapper">
         <header id="header">
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -44,27 +50,27 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto" id="nav">
+                    <ul class="nav navbar-nav ml-auto" id="nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#"><b>H</b>ome
-                                <span class="sr-only">(current)</span>
+                            <a class="nav-link" href="#section1"><b>H</b>ome
+                               
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#stats"><b>O</b>ur Why</a>
+                            <a class="nav-link" href="#section2"><b>O</b>ur Why</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#how-to-use"><b>O</b>ur How</a>
+                            <a class="nav-link" href="#section3"><b>O</b>ur How</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#testimonial"><b>O</b>ur Wows</a>
+                            <a class="nav-link" href="#section4"><b>O</b>ur Wows</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link sign-up-form" href="#"><b>S</b>ign Up</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contactus">Contact <b>U</b>s </a>
+                            <a class="nav-link" href="#section5">Contact <b>U</b>s </a>
                         </li>
                         <li class="nav-item">
                             <a href="https://www.facebook.com/perpetu8">
@@ -97,7 +103,7 @@
             </nav>
 
             <!-- Header Content -->
-            <div class="header-content">
+            <div class="header-content" id="section1">
 
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
@@ -135,7 +141,7 @@
         </header>
 
         <!-- Stats -->
-        <section id="stats">
+        <section id="section2" class="stats">
             <div class="col-12" style="padding:3%">
                 <img class="mx-auto d-block" src="./assets/imgs/arrow-down.png" alt="" srcset="">
             </div>
@@ -216,7 +222,7 @@
 
         <!-- How to use -->
 
-        <section id="how-to-use">
+        <section id="section3" class="how-to-use">
             <div class="main-text">
                 <h2 class="text-center">OUR HOW</h2>
                 <div class="container">
@@ -477,7 +483,7 @@
 
 
         <!-- Testimonial -->
-        <section id="testimonial">
+        <section id="section4" class="testimonial">
             <div class="main-text">
                 <h2 class="text-center">OUR WOWS</h2>
 
@@ -685,7 +691,7 @@
 
 
         <!-- Contact Us -->
-        <section id="contactus">
+        <section id="section5" class="contactus">
 
             <div class="row">
                 <div class="col">
