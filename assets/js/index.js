@@ -11,7 +11,7 @@ var mySwiper = new Swiper('.swiper-container', {
 
 })
 
-
+/*  */
 function openCity(evt, cityName) {
   var i, x, tablinks;
   x = document.getElementsByClassName("howtouse");

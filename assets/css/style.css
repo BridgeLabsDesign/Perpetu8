@@ -4,7 +4,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
   position: relative !important;
   overflow-x: hidden;
 }
@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
   font-weight: 400;
   margin: 10px 0;
 }
@@ -24,7 +24,7 @@ h6 {
 
 .navbar-nav {
   padding-right: 14px !important;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
 }
 .navbar {
   position: fixed;
@@ -47,6 +47,7 @@ h6 {
 }
 .font-weight-light {
   font-weight: 300!important;
+  font-size: 0.8rem;
   color: #023347 !important;
 }
 .navbar li a {
@@ -60,7 +61,7 @@ h6 {
   padding: 2px 30px !important;
   color: #fff;
   border-radius: 50px;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
 }
 .navbar li.active a {
   color: white !important;
@@ -83,7 +84,7 @@ color:#fff !important;
   padding: 2px 30px !important;
   color: #fff !important;
   border-radius: 50px;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -96,7 +97,7 @@ color:#fff !important;
   color: #fff !important;
   border-radius: 50px;
   background-color: skyblue;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
 }
 
 #header {
@@ -108,7 +109,7 @@ color:#fff !important;
   padding: 30px;
   color: #023347;
   margin-bottom: 100px;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
 }
 
 #header::after {
@@ -163,13 +164,13 @@ p {
   background-position-y: 230px;
   background-position-x: -30%;
   color: #023347 !important;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
  
 }
 
 .main-text {
   margin-bottom: 5%;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
 }
 
 .illustration-2 {
@@ -187,7 +188,7 @@ p {
   width: 100%;
   color: rgb(3, 3, 95);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
 }
 
 .card1 {
@@ -200,7 +201,7 @@ p {
 
   color: rgb(3, 3, 95);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
 }
 
 /* How to use */
@@ -211,7 +212,7 @@ p {
   height: auto;
   padding-top: 5%;
   color: #023347;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
 }
 
 .how-to-use::after {
@@ -262,7 +263,7 @@ p {
 .how-to-text {
   text-transform: uppercase;
   font-size: 1rem;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
   color: #023347 !important;
 }
 
@@ -280,7 +281,7 @@ p {
   height: auto;
   padding-top: 2%;
   margin-bottom: 35vh;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
 }
 
 /* Contact us */
@@ -294,7 +295,7 @@ p {
   padding: 30px;
   color: white;
 
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
   /* padding-top: 12%;  */
 }
 
@@ -318,7 +319,7 @@ p {
   width: 800px;
   margin: auto;
   align-content: center;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
   border: none !important;
   text-align: center !important;
   text-decoration: none !important;
@@ -329,7 +330,7 @@ p {
 .w3-red{
   color: #fff !important;
   background-color: #023347 !important;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
   border: none !important;
   text-align: center !important;
   text-decoration: none !important;
@@ -360,7 +361,7 @@ button:focus {
   flex-wrap: nowrap !important;
   margin: 15px;
   margin-left: 15px;
-  font-family: "Perpetua" !important;
+ font-family: 'Roboto', sans-serif;
 } 
 
 
@@ -374,4 +375,9 @@ button:focus {
   z-index: 1;
   width: 600px;
   height: 300px;
+}
+
+
+.padding-arround{
+  padding: 0 10% !important;
 }
