@@ -35,7 +35,7 @@ ul li:hover {
   cursor: pointer;
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+ /*  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); */
 }
 .carousel-wrapper {
   overflow: hidden;
@@ -91,5 +91,5 @@ ul li:hover {
 .swiper-container {
   overflow: hidden !important;
   width: auto;
-  height: 355px !important;
+  height: 500px !important;
 }
