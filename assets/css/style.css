@@ -33,6 +33,7 @@ h6 {
   width: 100% !important;
   z-index: 3;
   background-color: #f7cc0c;
+  border-bottom: 1px solid #dce4ec;
 }
 .header-content {
   padding-top: 6%;
@@ -96,13 +97,14 @@ color:#fff !important;
   padding: 10px 35px !important;
   color: #fff !important;
   border-radius: 50px;
-  background-color: skyblue;
+  background-color: #023347;
  font-family: 'Roboto', sans-serif;
 }
 
+
 .custom-btn:hover{
   text-decoration: none;
-  background-color: #080141;
+  background-color: #023347;
 }
 
 #header {
@@ -288,7 +290,7 @@ p {
   width: 100%;
   height: auto;
   padding-top: 2%;
-  margin-bottom: 35vh;
+  margin-bottom: 11vh;
  font-family: 'Roboto', sans-serif;
 }
 
