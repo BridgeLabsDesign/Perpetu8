@@ -159,7 +159,7 @@ p {
 .stats {
   position: relative;
   width: 100%;
-  height: 160vh;
+  /*height: 160vh;*/
   padding-top: 8%;
 /*   background: url(../imgs/illustration-2.png);
  */  background-repeat: no-repeat;
@@ -172,7 +172,10 @@ p {
  font-family: 'Roboto', sans-serif;
  
 }
-
+.carddiv{
+  padding-right: 26px !important;
+    padding-left: 26px !important;
+}
 .main-text {
   margin-bottom: 5%;
  font-family: 'Roboto', sans-serif;
