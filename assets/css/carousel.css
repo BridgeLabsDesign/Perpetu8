@@ -35,7 +35,7 @@ ul li:hover {
   cursor: pointer;
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
- /*  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); */
+  /*  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); */
 }
 .carousel-wrapper {
   overflow: hidden;
@@ -78,9 +78,10 @@ ul li:hover {
 }
 
 .Card-image {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
+  margin-bottom: 25px;
 }
 .title-sub {
   float: right;

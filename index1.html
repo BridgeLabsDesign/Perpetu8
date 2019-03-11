@@ -25,7 +25,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
         body {
             position: relative;
@@ -151,7 +151,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                        <div class="card">
+                        <div class="card" data-aos="fade-right">
                                 <div class="card-body ">
                                     <h6 class="font-weight-light sourcetitle"> Africa holds 10.1% of the world’s freelancers.
                                         Higher than
@@ -161,7 +161,7 @@
                                     <h6 class="font-weight-bold source">- The Payoneer Freelancer Income Survey 2018</h6>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" data-aos="fade-right">
                                 <div class="card-body font-weight-bold">
                                     <h6 class="font-weight-light sourcetitle">Freelance market brought in $5 billion into Africa
                                         by 2016.
@@ -171,7 +171,7 @@
         
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" data-aos="fade-right">
                                 <div class="card-body font-weight-bold">
                                     <h6 class="font-weight-light sourcetitle"> 47% of working millennials freelance in some
                                         capacity. </h6>
@@ -184,7 +184,7 @@
                 </div>
                 <div class="col-sm-4 p-5">
                     
-                    <div class="card">
+                    <div class="card" data-aos="fade-left">
                         <div class="card-body font-weight-bold">
                             <h6 class="font-weight-light sourcetitle"> In line with exponential growth in technology and
                                 the
@@ -198,7 +198,7 @@
                             </h6>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-left">
                         <div class="card-body font-weight-bold">
                             <h6 class="font-weight-light sourcetitle"> South African SMEs face pressures in accessing,
                                 affording and
@@ -209,7 +209,7 @@
                                 Africa, 2016</h6>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-left">
                         <div class="card-body font-weight-bold">
                             <h6 class="font-weight-light sourcetitle">Staff on demand (freelancers) allows for speed,
                                 functionality
@@ -510,7 +510,7 @@
                                             <h5 class="card-title source">Glenn Gillis </h5>
                                             <h6 class="card-subtitle mb-2 text-muted source">Founder & CEO: SeaMonster
                                             </h6>
-                                        </span>
+                                        </span> 
                                         <h6 class="font-weight-light ">
                                             Perpetu8 recently provided some consulting work with my company, Sea
                                             Monster. S’onqoba is without doubt one of the most competent, insightful
@@ -525,8 +525,7 @@
                                             to her deep and sincere belief that the world can and must be a better
                                             place tomorrow than it is today.
                                         </h6>
-                                        <h6 class="font-weight-bold source">- Glenn Gillis, Founder & CEO: SeaMonster
-                                        </h6>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -568,8 +567,7 @@
                                             We’re excited to leverage the Perpetu8 platform for the rest of our
                                             investees" </i>
                                         </h6>
-                                        <h6 class="font-weight-bold source">- Rushil Vallabh, Co-Founder SechaCapital
-                                        </h6>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -606,9 +604,7 @@
                                                 better
                                                 place tomorrow than it is today.
                                             </h6>
-                                            <h6 class="font-weight-bold source">- Glenn Gillis, Founder & CEO:
-                                                SeaMonster
-                                            </h6>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -715,7 +711,7 @@
                 </div>
                 <div class="col">
                     <br><br><br>
-                    <p class="text-right"> Our Social media - <br>
+                    <p class="text-right"> <!-- Our Social media - <br> -->
 
                         <a href="https://www.facebook.com/perpetu8">
                             <span style="color:#3C5A99; font-size:30px;margin-right: 2%;"> <i
@@ -758,14 +754,16 @@
                         <div class="">
                             <form>
                                 <div class="input_field radio_option">
-                                    You are a: <br>
+                                  <!--   You are a: <br> -->
 
                                     <input type="radio" name="radiogroup1" id="rd1" required>
                                     <label for="rd1">Freelancer </label>
                                     <input type="radio" name="radiogroup1" id="rd2">
                                     <label for="rd2">SME business</label>
                                     <input type="radio" name="radiogroup1" id="rd3">
-                                    <label for="rd3">Funder in the Ecosystem</label>
+                                    <label for="rd3">Funder</label>
+                                    <input type="radio" name="radiogroup1" id="rd4">
+                                    <label for="rd3">Other</label>
                                 </div>
                                 <!--                             <div class="row clearfix">
                                     <div class="col_half">
@@ -844,7 +842,10 @@
 
     <script src="./assets/js/index.js"></script>
     <script src="./assets/js/carousel.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 
 </body>
