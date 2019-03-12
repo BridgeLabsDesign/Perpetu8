@@ -43,8 +43,7 @@ h6 {
    color: #023347 !important;
 }
 .sourcetitle{
-  font-size:17px;
-  color: #023347 !important;
+  margin-top:3%;
 }
 .font-weight-light {
   font-weight: 300!important;
@@ -197,7 +196,7 @@ p {
   position: relative;
   width: 100%;
   color: rgb(3, 3, 95);
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+ /*  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
  font-family: 'Roboto', sans-serif;
 }
 
@@ -208,9 +207,9 @@ p {
   height: 485px;
 
   position: relative;
-
+border: 1px solid rgba(0,0,0,.125);
   color: rgb(3, 3, 95);
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
  font-family: 'Roboto', sans-serif;
 }
 
@@ -223,6 +222,7 @@ p {
   padding-top: 5%;
   color: #023347;
  font-family: 'Roboto', sans-serif;
+ margin-top:5%;
 }
 
 .how-to-use::after {
@@ -293,6 +293,11 @@ p {
   margin-bottom: 11vh;
  font-family: 'Roboto', sans-serif;
 }
+.ourwhyIcon{
+  width: 15%;
+  float: left;
+}
+
 
 /* Contact us */
 
@@ -390,4 +395,9 @@ button:focus {
 
 .padding-arround{
   padding: 0 10% !important;
+}
+.iconspan{
+  color:#fff; 
+  font-size:22px;
+  margin-right: 2%;
 }
