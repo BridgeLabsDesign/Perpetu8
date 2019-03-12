@@ -204,7 +204,7 @@ p {
   background: #fff;
   border-radius: 2px;
   display: inline-block;
-  height: 485px;
+  height: 415px;
 
   position: relative;
 border: 1px solid rgba(0,0,0,.125);
@@ -400,4 +400,18 @@ button:focus {
   color:#fff; 
   font-size:22px;
   margin-right: 2%;
+}
+.container1{
+  width: 76%;
+  /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+.fcard{
+  width: 96%;
+  margin-left: 1em;
+}
+.scard{
+  width: 96%;
 }
