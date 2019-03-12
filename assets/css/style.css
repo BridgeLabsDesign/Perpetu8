@@ -268,10 +268,11 @@ border: 1px solid rgba(0,0,0,.125);
 
 .how-img > img {
   max-width: 100%;
+  height: 140px;
 }
 
 .how-to-text {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 1rem;
  font-family: 'Roboto', sans-serif;
   color: #023347 !important;
@@ -289,7 +290,7 @@ border: 1px solid rgba(0,0,0,.125);
   position: relative;
   width: 100%;
   height: auto;
-  padding-top: 2%;
+  padding-top: 5%;
   margin-bottom: 11vh;
  font-family: 'Roboto', sans-serif;
 }
@@ -344,13 +345,14 @@ border: 1px solid rgba(0,0,0,.125);
 
 .w3-red{
   color: #fff !important;
-  background-color: #023347 !important;
+  background-color: #ffc728 !important;
  font-family: 'Roboto', sans-serif;
   border: none !important;
   text-align: center !important;
   text-decoration: none !important;
   display: inline-block !important;
   font-size: 16px !important;
+  border-radius: 100px;
  
 }
 
@@ -359,10 +361,11 @@ button, select {
   color: #ffffff;
   padding: 8px 20px;
   width: 200px;
-  background-color: #ffc728 !important;
+  background-color:#023347  !important;
   cursor: pointer;
   user-select: none;
-  margin: auto
+  margin: auto;
+  border-radius: 100px !important;
 }
 button:focus {
   outline: 1px gray !important;
@@ -414,4 +417,7 @@ button:focus {
 }
 .scard{
   width: 96%;
+}
+.selectmenu{
+  margin-bottom: 5%;
 }
