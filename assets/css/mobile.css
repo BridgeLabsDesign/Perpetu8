@@ -122,9 +122,9 @@ button, select {
   background: #fff;
   width: 346px !important;
 }
-  #header {
-    height: 100vh;
-  }
+  /* #header {
+    height: 87vh;
+  } */
   .logo {
     width: 30%;
     height: auto;
@@ -132,14 +132,7 @@ button, select {
   .navbar {
    padding: .5rem 0rem !important;
   }
-  .header-img {
-    height: auto;
-    max-width: 84% ;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-top: 58px !important;
-    display: block !important;
-  }
+ 
   .intro-text > h2 {
     font-size: 14px;
   }
@@ -173,25 +166,51 @@ button, select {
 }
 
 
-@media (max-width: 768px) {
-  #header {
-    height: 100vh;
-  }
-  .logo {
-    width: 30%;
-    height: auto;
-  }
-  .navbar {
-   padding: .5rem 0rem !important;
-  }
+
+@media (min-width: 375px) and (max-width: 667px) {
   .header-img {
     height: auto;
-    max-width: 70%;
+    max-width: 67%;
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-top: 120px;
+    margin-top: 58px !important;
     display: block !important;
-  }
+}
+#header {
+  height: 84vh ;
+}
+
+
+}
+
+@media (min-width: 414px) and (max-width: 736px) {
+  .header-img {
+    height: auto;
+    max-width: 73%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 58px !important;
+    display: block !important;
+}
+#header {
+  height: 84vh !important;
+}
+
+
+}
+
+
+@media (min-width: 377px) and (max-width: 812px) {
+  #header {
+    height: 78vh ;
+}
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
   .intro-text > h2 {
     font-size: 14px;
   }
@@ -202,25 +221,140 @@ button, select {
     padding: 10px 25px !important;
     font-size: 10px;
   }
-  #stats {
-    height: auto;
-  }
+.header-content {
+  margin-top: 0%;
+}
+.header-img {
+  height: auto;
+  max-width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 0px;
+  display: block !important;
+}
+#header {
+  height: 34vh !important;
+}
+.stats {
+  position: relative;
+  width: 100%;
+  /* height: 160vh; */
+  margin-top: 29%;
+  /* background: url(../imgs/illustration-2.png); */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: left;
+  background-size: 70%;
+  background-position-y: 230px;
+  background-position-x: -30%;
+  color: #023347 !important;
+  font-family: 'Roboto', sans-serif;
+}
+.headericon{
+  padding: 18%;
+}
+.testimonial {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  margin-bottom: 16%;
+  font-family: 'Roboto', sans-serif;
+}
+.form-view {
+  position: fixed;
+  top: 0px;
+  width: 82% !important;
+  height: 100vh;
+  -webkit-transition: right 1s;
+  transition: right 1s;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.col-sm-3 {
+  flex: 0 0 25%;
+  max-width: 20%;
+}
 
-  h6 {
-    font-size: 13px;
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .intro-text > h2 {
+    font-size: 20px;
   }
-  #contactus::after {
-    width: 100%;
-    height: 100%;
+  p {
+    font-size: 16px;
   }
-  .row {
-  
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap !important;
-    margin: 15px;
-    margin-left: 15px;
-   font-family: 'Roboto', sans-serif;
-  } 
-  
+  .custom-btn {
+    padding: 10px 25px !important;
+    font-size: 10px;
+  }
+  #header {
+    height: 53vh !important;
+}
+.header-content {
+  margin-top: 4%;
+}
+.headericon {
+  padding: 20%;
+}
+.stats {
+  position: relative;
+  width: 100%;
+  /* height: 160vh; */
+  margin-top: 0%;
+  /* background: url(../imgs/illustration-2.png); */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: left;
+  background-size: 70%;
+  background-position-y: 230px;
+  background-position-x: -30%;
+  color: #023347 !important;
+  font-family: 'Roboto', sans-serif;
+}
+.h2, h2 {
+  font-size: 24px;
+}
+.intro-text {
+  padding-top: 2%;
+  font-size: 13px;
+}
+.testimonial {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  margin-bottom: 12%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-item {
+  margin-right: 4px !important;
+  margin-left: 0 !important;
+
+}
+.showicon{
+  width: 97px;
+}
+#smes {
+  padding-bottom: 10vh;
+  width: 89%;
+  margin: auto;
+  margin-left: -6%;
+}
+.form-view {
+  position: fixed;
+  top: 0px;
+  width: 63% !important;
+  height: 100vh;
+  -webkit-transition: right 1s;
+  transition: right 1s;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+
 }
