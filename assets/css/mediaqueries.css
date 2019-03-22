@@ -12,7 +12,7 @@
 
 
 
-@media screen and (min-width: 1521px) and (max-width: 20000px) and (orientation: landscape) {
+@media screen and (min-width: 1371px) and (max-width: 20000px) and (orientation: landscape) {
 /* general style for the form */
 .header-img {
   height: 84% !important;
@@ -153,6 +153,9 @@ color:#fff !important;
     margin-left: 0% !important;
     margin-top: 12%;
 }
+.headericon {
+  margin-top: -11%;
+}
 #stats {
   position: relative;
   width: 100%;
@@ -270,10 +273,15 @@ color:#fff !important;
 }
 @media screen and (min-width: 932px) and (max-width: 1370px) and (orientation: landscape) {
   .header-img {
-    height: 45% !important;
+    height: 60% !important;
     margin-left: 0% !important;
-    margin-top: 24%;
+    margin-top: 0%;
 }
+.headericon {
+  margin-top: -38%;
+}
+
+
 #smes {
   padding-bottom: 10vh !important;
   width: 100% !important;
