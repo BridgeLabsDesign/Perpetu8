@@ -93,6 +93,7 @@ margin-left: 0% !important;
   padding: 10px;
   overflow: hidden;
   overflow-y: scroll;
+  margin-top:6%;
 }
 .navbar li.active {
   background-color: #023347 !important;
@@ -214,6 +215,7 @@ color:#fff !important;
   padding: 10px;
   overflow: hidden;
   overflow-y: scroll;
+  margin-top:6%;
 }
 .navbar li.active {
   background-color: #023347 !important;
@@ -333,6 +335,7 @@ color:#fff !important;
   padding: 10px;
   overflow: hidden;
   overflow-y: scroll;
+  margin-top:6%;
 }
 .navbar li.active {
   background-color: #023347 !important;

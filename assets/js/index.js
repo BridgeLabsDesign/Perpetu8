@@ -54,20 +54,20 @@ $("body").delegate("#close-form-view", "click", function (event) {
   $('.navbar').css({ position: 'fixed' })
 })
 $(window).scroll(function (evt) {
-  $(".wrapper").removeClass('body-slid')
-  $('.form-view').removeClass('form-view-active');
+/*   $(".wrapper").removeClass('body-slid')
+  $('.form-view').removeClass('form-view-active'); */
   $('.navbar').css({ position: 'fixed' })
 });
 /* ==== */
 
-function submit() {
+/* function submit() {
   $.notify.addStyle('foo', {
     html:
       "<div class=''>" +
       "<div class='clearfix notify-custom'>" +
       "<div class='title' data-notify-html='title'/>" +
       "<div class='buttons'>" +
-      /* "<button class='no'>Cancel</button>" + */
+
       "<button class='yes notify-button' data-notify-text='button'></button>" +
       "</div>" +
       "</div>" +
@@ -81,9 +81,7 @@ function submit() {
     $(this).trigger('notify-hide');
   });
   $(document).on('click', '.notifyjs-foo-base .yes', function () {
-    //show button text
-    /*  alert($(this).text() + " clicked!"); */
-    //hide notification
+
 
     $(this).trigger('notify-hide');
   });
@@ -97,10 +95,10 @@ function submit() {
       clickToHide: false
     });
 
-}
+} */
 
 
-$(document).ready(function () {
+/* $(document).ready(function () {
   $('#submit').click(function () {
     var select = document.getElementById();
     var name = document.getElementById();
@@ -118,5 +116,4 @@ $(document).ready(function () {
       }
     })
   })
-});
-
+}); */
