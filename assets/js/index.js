@@ -55,8 +55,8 @@ $("body").delegate("#close-form-view", "click", function (event) {
 })
 $(window).scroll(function (evt) {
 /*   $(".wrapper").removeClass('body-slid')
-  $('.form-view').removeClass('form-view-active'); */
-  $('.navbar').css({ position: 'fixed' })
+  $('.form-view').removeClass('form-view-active'); 
+  $('.navbar').css({ position: 'fixed' })*/
 });
 /* ==== */
 
