@@ -307,6 +307,7 @@ color:#fff !important;
 }
 .headericon {
   margin-top: -40%;
+  display: none;
 }
 .card2 {
   position: relative;
