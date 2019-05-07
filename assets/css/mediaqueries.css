@@ -87,6 +87,12 @@ margin-left: 0% !important;
  font-family: 'Roboto', sans-serif;
  display: none !important;
 }
+.mobm{
+  display: none !important;
+}
+.webm{
+  display: block !important;
+}
 .testimonial1 {
   position: relative;
   width: 100%;
@@ -226,6 +232,12 @@ color:#fff !important;
  font-family: 'Roboto', sans-serif;
  display: none !important;
 }
+.mobm{
+  display: none !important;
+}
+.webm{
+  display: block !important;
+}
 .testimonial1 {
   position: relative;
   width: 100%;
@@ -364,6 +376,12 @@ color:#fff !important;
   margin-bottom: 11vh;
  font-family: 'Roboto', sans-serif;
  display: none !important;
+}
+.mobm{
+  display: none !important;
+}
+.webm{
+  display: block !important;
 }
 .testimonial1 {
   position: relative;
